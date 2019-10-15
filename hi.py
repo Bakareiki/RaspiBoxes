@@ -40,14 +40,13 @@ def transition(speed):
 def start(level):
     transition(0.02)
     if (level == level1):
-        characterPostition = [5,1]
+        characterPosition = [5,1]
         hat.set_pixels(level1)
-        
+        updatePosition()
+    else if:
 #endStart
+
 def updatePosition():
+    hat.set_pixels(characterPosition,w)
+#endUpdatePosition
     
-    
-    
-
-
-
